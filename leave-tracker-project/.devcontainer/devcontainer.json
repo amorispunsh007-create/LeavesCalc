@@ -1,1 +1,11 @@
-{ "name": "Android Kotlin Compose", "image": "mcr.microsoft.com/devcontainers/base:jammy", "features": { "ghcr.io/devcontainers/features/java:1": { "version": "17", "installGradle": true } }, "postCreateCommand": "bash .devcontainer/setup.sh" }
+{
+  "name": "Android Kotlin Compose",
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17",
+      "installGradle": true
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}
